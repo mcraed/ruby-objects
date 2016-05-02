@@ -59,7 +59,7 @@ class Elevator
 	end
 
 	def greet
-		puts "Hello!! I'm the 24 hour automated elevator operator. You're Currently on floor #{@floor}. Call up or down and tell me where you want to go!"
+		puts "Hello!! I'm the 24 hour automated elevator operator. You're Currently on floor #{@floor}. Call up or down to tell me where to go!"
 	end 
 end
 

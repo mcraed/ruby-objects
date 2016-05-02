@@ -1,5 +1,10 @@
-f ="Woodchucks chuck"
-f << "Only in America!"
+
+def push
+	f ="Woodchucks chuck"
+	f << "Only in America!"
+end
+
+push
 
 def grab_number
 	nums = [20 , 50, 30, 70, 10 , 40]
@@ -22,16 +27,23 @@ def array_bender
 	print p
 end
 
-for n in 1...100
-	if ( n % 3 == 0 && n % 5 == 0 )
-		puts "Fizz"
-	elsif ( n % 5 == 0 )
-		puts "Buzz"
-	elsif ( n % 3 == 0)
-		puts "FizzBuzz"
-	else puts n
+array_bender
+
+def fizzbuzz
+
+	for n in 1...100
+		if ( n % 3 == 0 && n % 5 == 0 )
+			puts "Fizz"
+		elsif ( n % 5 == 0 )
+			puts "Buzz"
+		elsif ( n % 3 == 0)
+			puts "FizzBuzz"
+		else puts n
+		end
 	end
 end 
+
+fizzbuzz
 	
 
 

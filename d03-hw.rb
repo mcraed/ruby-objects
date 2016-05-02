@@ -6,6 +6,8 @@ end
 
 #inject here will multiply every number between 1 and num; returning the factorial of num
 
+#=======================================
+
 @a = [1, 2, 3, 4, 5, 6]
 
 def rot( arr , num)
